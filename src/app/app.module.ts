@@ -12,6 +12,7 @@ import {
   MatCheckboxModule,
   MatInputModule,
   MatListModule,
+  MatIconModule,
 } from '@angular/material';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
@@ -37,6 +38,7 @@ import { NgForComponent } from './ng-for/ng-for.component';
     MatCheckboxModule,
     MatInputModule,
     MatListModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
