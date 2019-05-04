@@ -10,11 +10,13 @@ import {
   MatRadioModule, 
   MatCardModule 
 } from '@angular/material';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgStyleComponent
+    NgStyleComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,
